@@ -1,4 +1,4 @@
-using UnityEngine;//¤Ş¥Î¦W¬°UnityEngineªº¨ç¦¡®w
+ï»¿using UnityEngine;//å¼•ç”¨åç‚ºUnityEngineçš„å‡½å¼åº«
 using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
@@ -10,7 +10,6 @@ public class MenuManager : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-
 	}
     public void StartGame()
 	{
