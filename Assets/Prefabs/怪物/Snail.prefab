@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 119928693809703918}
   - component: {fileID: 119928693809703919}
   - component: {fileID: 348426935168191125}
+  - component: {fileID: 3837461552484865672}
+  - component: {fileID: 2265027111586022448}
   m_Layer: 0
   m_Name: Snail
   m_TagString: Untagged
@@ -123,3 +125,39 @@ CircleCollider2D:
   m_Offset: {x: 0.045349628, y: -0.08162919}
   serializedVersion: 2
   m_Radius: 0.46
+--- !u!114 &3837461552484865672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119928693809703916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f655adab9c97a64680b4c71bf74374a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movespeed: 0.01
+  player: {fileID: 0}
+  ani: {fileID: 119928693809703919}
+--- !u!50 &2265027111586022448
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119928693809703916}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 30
+  m_LinearDrag: 15
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

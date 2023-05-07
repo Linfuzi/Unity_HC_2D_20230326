@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 533868869226271368}
   - component: {fileID: 533868869226271369}
   - component: {fileID: 1988186186821421073}
+  - component: {fileID: 4037827163439073784}
+  - component: {fileID: 5677103380449885986}
   m_Layer: 0
   m_Name: Bunny
   m_TagString: Untagged
@@ -123,3 +125,39 @@ CapsuleCollider2D:
   m_Offset: {x: -0.02720964, y: -0.08162916}
   m_Size: {x: 0.8, y: 1.1}
   m_Direction: 0
+--- !u!114 &4037827163439073784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533868869226271374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f655adab9c97a64680b4c71bf74374a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movespeed: 0.01
+  player: {fileID: 0}
+  ani: {fileID: 533868869226271369}
+--- !u!50 &5677103380449885986
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533868869226271374}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 30
+  m_LinearDrag: 15
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

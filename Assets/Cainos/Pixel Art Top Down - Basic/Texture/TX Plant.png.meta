@@ -418,11 +418,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 24
-        y: 359
+        y: 360
         width: 113
         height: 139
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.48, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -442,8 +442,8 @@ TextureImporter:
         y: 361
         width: 79
         height: 120
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -463,8 +463,8 @@ TextureImporter:
         y: 359
         width: 95
         height: 136
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.49, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -484,8 +484,8 @@ TextureImporter:
         y: 282
         width: 39
         height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.55, y: 0.06}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -940,6 +940,7 @@ TextureImporter:
       TX Grass L: 21300166
       TX Grass I: 21300160
       TX Tree T3 Upper: 21300084
+      TX Plant_0: -835265717
       TX Grass C: 21300148
       TX Grass N: 21300170
       TX Tree T1 Lower: 21300122
