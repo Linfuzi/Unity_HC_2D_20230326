@@ -17,12 +17,25 @@ public class ControlSystem : MonoBehaviour
 	private void Update()
 	{
 		//print("<color=red>LOL</color>");
-		float x = Input.GetAxis("Horizontal");
-		float y = Input.GetAxis("Vertical");
-		rb.velocity = new Vector3(x, y, 0) * movespeed;
+		Movemant();
 	}
 	private void Awake()
 	{
-       
+
+	}
+	private void Movemant()
+	{
+		float x = Input.GetAxis("Horizontal");
+		float y = Input.GetAxis("Vertical");
+		rb.velocity = new Vector3(x, y, 0) * movespeed;
+		if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+		{
+			transform.eulerAngles = new Vector3(0, -180, 0);
+		}
+		else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+		{
+			transform.eulerAngles = new Vector3(0, 0, 0);
+		}
+		ani.SetBool("run", true);
 	}
 }
