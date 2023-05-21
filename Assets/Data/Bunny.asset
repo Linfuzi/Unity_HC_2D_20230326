@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea89c855475b750458bbd2631866ce00, type: 3}
+  m_Script: {fileID: 11500000, guid: 52648759aa036a34d8a19275bfe19a8f, type: 3}
   m_Name: Bunny
   m_EditorClassIdentifier: 
-  hp: 450
+  hp: 750
+  prefabExp: {fileID: 3052299860552315952, guid: 76e1111c19d2b974abcea103785197e6,
+    type: 3}
+  dropProbability: 1
