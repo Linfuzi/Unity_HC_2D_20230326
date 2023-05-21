@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 348426935168191125}
   - component: {fileID: 3837461552484865672}
   - component: {fileID: 2265027111586022448}
+  - component: {fileID: 4317544380846350616}
   m_Layer: 0
   m_Name: Snail
   m_TagString: Untagged
@@ -161,3 +162,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4317544380846350616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119928693809703916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a345d3b952a18d7439b9a8ca41dff659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data: {fileID: 11400000, guid: 47b74bf0c5cfe4541be3b220919f3264, type: 2}

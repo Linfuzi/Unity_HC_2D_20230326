@@ -36,6 +36,10 @@ public class ControlSystem : MonoBehaviour
 		{
 			transform.eulerAngles = new Vector3(0, 0, 0);
 		}
+		/*else if(Input.GetKeyDown(KeyCode.Space))
+		{
+			transform.position = new Vector3()
+		}*/
 		ani.SetBool("run", true);
 	}
 }
