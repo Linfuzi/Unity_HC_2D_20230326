@@ -138,4 +138,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rig: {fileID: 2737326164630944485}
-  power: {x: 100, y: 1500}
+  power: {x: 100, y: 300}
