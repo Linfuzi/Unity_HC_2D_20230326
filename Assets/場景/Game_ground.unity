@@ -145,7 +145,7 @@ GameObject:
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &73400419
 Transform:
   m_ObjectHideFlags: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 4266300869805537251, guid: a2d4e7ad9dd19e544bbf419ca62224e3,
     type: 3}
 --- !u!1001 &81541865
@@ -440,7 +440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &166360617
 RectTransform:
   m_ObjectHideFlags: 0
@@ -448,10 +448,10 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 166360616}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 1
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 85434084}
   - {fileID: 1146148139}
@@ -462,8 +462,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0013733, y: -0.000091553}
-  m_SizeDelta: {x: 816, y: 459}
+  m_AnchoredPosition: {x: -0.00017548, y: 0}
+  m_SizeDelta: {x: 1280, y: 720}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &166360618
 MonoBehaviour:
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.89411765}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.78431374}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -558,7 +558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.2512, y: -67}
+  m_AnchoredPosition: {x: 5.2512, y: -88.3}
   m_SizeDelta: {x: 164.3274, y: 48.8007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &180200603
@@ -919,7 +919,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -126}
-  m_SizeDelta: {x: 100, y: 20.195}
+  m_SizeDelta: {x: 110, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252994324
 MonoBehaviour:
@@ -941,7 +941,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u7B49\u7D1A  Lv.1"
+  m_text: "\u7B49\u7D1A  Lv  1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 28c1bdd26030ce24990c8dc745f367f6, type: 2}
   m_sharedMaterial: {fileID: 3378906159935416594, guid: 28c1bdd26030ce24990c8dc745f367f6,
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 538283153640872538, guid: 9575f67317be58f4b9fecca500830867,
     type: 3}
 --- !u!1001 &349475288
@@ -1398,7 +1398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.2512, y: -67}
+  m_AnchoredPosition: {x: 5.2512, y: -94.800026}
   m_SizeDelta: {x: 164.3274, y: 48.8007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &371914120
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u6280\u80FD\u63CF\u8FF0\u6280\u80FD\u63CF\u8FF0\u6280\u80FD"
+  m_text: "\u63CF\u8FF0\u63CF\u8FF0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 28c1bdd26030ce24990c8dc745f367f6, type: 2}
   m_sharedMaterial: {fileID: 3378906159935416594, guid: 28c1bdd26030ce24990c8dc745f367f6,
@@ -1543,7 +1543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 538283153640872538, guid: 9575f67317be58f4b9fecca500830867,
     type: 3}
 --- !u!1001 &385595128
@@ -1717,7 +1717,7 @@ GameObject:
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &522877578
 Transform:
   m_ObjectHideFlags: 0
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 119928693809703916, guid: 399968dfaf178044090083cb234ed535,
     type: 3}
 --- !u!1 &562313347
@@ -2104,7 +2104,7 @@ GameObject:
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &573078361
 Transform:
   m_ObjectHideFlags: 0
@@ -2132,7 +2132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 4266300869805537251, guid: a2d4e7ad9dd19e544bbf419ca62224e3,
     type: 3}
 --- !u!4 &579810896 stripped
@@ -2176,7 +2176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.2512, y: -67}
+  m_AnchoredPosition: {x: 5.2512, y: -88.300026}
   m_SizeDelta: {x: 164.3274, y: 48.8007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645304386
@@ -2446,7 +2446,7 @@ GameObject:
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &656568223
 Transform:
   m_ObjectHideFlags: 0
@@ -2474,7 +2474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 4266300869805537251, guid: a2d4e7ad9dd19e544bbf419ca62224e3,
     type: 3}
 --- !u!1 &701281654
@@ -13066,7 +13066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 533868869226271374, guid: 0ac4f5d596751a844b11a3b8eeeaec62,
     type: 3}
 --- !u!1 &886720803
@@ -13194,7 +13194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 119928693809703916, guid: 399968dfaf178044090083cb234ed535,
     type: 3}
 --- !u!4 &959111304 stripped
@@ -13424,7 +13424,7 @@ GameObject:
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &997912927
 Transform:
   m_ObjectHideFlags: 0
@@ -13452,7 +13452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 538283153640872538, guid: 9575f67317be58f4b9fecca500830867,
     type: 3}
 --- !u!4 &1031605644 stripped
@@ -13496,7 +13496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.2512, y: 38.542}
+  m_AnchoredPosition: {x: 2.5, y: 20}
   m_SizeDelta: {x: 274.0516, y: 211.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075890938
@@ -13581,7 +13581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 8789680609155329756, guid: f3867a5b4eccfda44832d3b2812ca0de,
     type: 3}
 --- !u!4 &1105225633 stripped
@@ -13625,55 +13625,30 @@ MonoBehaviour:
   lvMax: 100
   expneeds:
   - 100
-  - 200
   - 300
-  - 400
-  - 500
   - 600
-  - 700
-  - 800
-  - 900
   - 1000
-  - 1100
-  - 1200
-  - 1300
-  - 1400
   - 1500
-  - 1600
-  - 1700
-  - 1800
-  - 1900
-  - 2000
   - 2100
-  - 2200
-  - 2300
-  - 2400
-  - 2500
-  - 2600
-  - 2700
   - 2800
-  - 2900
-  - 3000
-  - 3100
-  - 3200
-  - 3300
-  - 3400
-  - 3500
   - 3600
-  - 3700
-  - 3800
-  - 3900
-  - 4000
-  - 4100
-  - 4200
-  - 4300
-  - 4400
   - 4500
-  - 4600
-  - 4700
-  - 4800
-  - 4900
-  - 5000
+  - 5500
+  goLevelUp: {fileID: 166360616}
+  goChooseSkills:
+  - {fileID: 1146148138}
+  - {fileID: 1631171906}
+  - {fileID: 2025008637}
+  dataSkills:
+  - {fileID: 11400000, guid: 05db21d691055b84886772de47ea08e4, type: 2}
+  - {fileID: 11400000, guid: 2d7fe435faf90ce44a0af2ab45e88385, type: 2}
+  - {fileID: 11400000, guid: a431be56db4e81d42861a667b146b210, type: 2}
+  - {fileID: 11400000, guid: 6841ae8ec67da914689d99817f849582, type: 2}
+  - {fileID: 11400000, guid: e3fec92442f6bec4d93e88d1d8dfbc8f, type: 2}
+  randomSkill: []
+  controlSystem: {fileID: 1461127677}
+  weaponSystem: {fileID: 1461127678}
+  dataHealth: {fileID: 11400000, guid: a71a5e6c66ac1a14aa959a93a9fcb6cd, type: 2}
 --- !u!4 &1107155720
 Transform:
   m_ObjectHideFlags: 0
@@ -13735,7 +13710,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -30}
+  m_AnchoredPosition: {x: -249, y: -30}
   m_SizeDelta: {x: 225, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1146148140
@@ -13781,7 +13756,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1146148141}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107155719}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: ClickSkillButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1146148141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14245,7 +14232,7 @@ GameObject:
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1247016167
 Transform:
   m_ObjectHideFlags: 0
@@ -14273,7 +14260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 119928693809703916, guid: 399968dfaf178044090083cb234ed535,
     type: 3}
 --- !u!4 &1258821162 stripped
@@ -14395,7 +14382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 533868869226271374, guid: 0ac4f5d596751a844b11a3b8eeeaec62,
     type: 3}
 --- !u!1001 &1303996608
@@ -14517,7 +14504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 4266300869805537251, guid: a2d4e7ad9dd19e544bbf419ca62224e3,
     type: 3}
 --- !u!4 &1320572345 stripped
@@ -14554,7 +14541,7 @@ GameObject:
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1345937562
 Transform:
   m_ObjectHideFlags: 0
@@ -14582,7 +14569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 8789680609155329756, guid: f3867a5b4eccfda44832d3b2812ca0de,
     type: 3}
 --- !u!1 &1348052091
@@ -15038,7 +15025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960cef33d3410d6498ff1efa9a2e1adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 10
+  movespeed: 7
   rb: {fileID: 1461127676}
   ani: {fileID: 1461127672}
   State: state
@@ -15054,7 +15041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3745e9656b0e1844b93ec514ab317a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 0.1
+  interval: 2.5
   prefabWeapon: {fileID: 6151518155588322202, guid: df96685f5dca15240957c0e22c1a03b1,
     type: 3}
   pointWeapon: {fileID: 1400410747}
@@ -15080,7 +15067,7 @@ GameObject:
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1475297605
 Transform:
   m_ObjectHideFlags: 0
@@ -15108,7 +15095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 533868869226271374, guid: 0ac4f5d596751a844b11a3b8eeeaec62,
     type: 3}
 --- !u!1001 &1538026779
@@ -15299,7 +15286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 533868869226271374, guid: 0ac4f5d596751a844b11a3b8eeeaec62,
     type: 3}
 --- !u!1001 &1607707084
@@ -15423,7 +15410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -249, y: -30}
+  m_AnchoredPosition: {x: 0, y: -30}
   m_SizeDelta: {x: 225, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1631171908
@@ -15469,7 +15456,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1631171909}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107155719}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: ClickSkillButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1631171909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15544,7 +15543,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -126}
-  m_SizeDelta: {x: 100, y: 20.195}
+  m_SizeDelta: {x: 110, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647681566
 MonoBehaviour:
@@ -15566,7 +15565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u7B49\u7D1A  Lv.1"
+  m_text: "\u7B49\u7D1A  Lv  1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 28c1bdd26030ce24990c8dc745f367f6, type: 2}
   m_sharedMaterial: {fileID: 3378906159935416594, guid: 28c1bdd26030ce24990c8dc745f367f6,
@@ -15760,7 +15759,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.2512, y: 38.542}
+  m_AnchoredPosition: {x: 2.5, y: 20}
   m_SizeDelta: {x: 274.0516, y: 211.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1693490961
@@ -15845,7 +15844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 8789680609155329756, guid: f3867a5b4eccfda44832d3b2812ca0de,
     type: 3}
 --- !u!1 &1746335319
@@ -15952,7 +15951,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -126}
-  m_SizeDelta: {x: 100, y: 20.195}
+  m_SizeDelta: {x: 110, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1783977533
 MonoBehaviour:
@@ -15974,7 +15973,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u7B49\u7D1A  Lv.1"
+  m_text: "\u7B49\u7D1A  Lv  1"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 28c1bdd26030ce24990c8dc745f367f6, type: 2}
   m_sharedMaterial: {fileID: 3378906159935416594, guid: 28c1bdd26030ce24990c8dc745f367f6,
@@ -16224,7 +16223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 8789680609155329756, guid: f3867a5b4eccfda44832d3b2812ca0de,
     type: 3}
 --- !u!4 &1918148047 stripped
@@ -16391,7 +16390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 538283153640872538, guid: 9575f67317be58f4b9fecca500830867,
     type: 3}
 --- !u!4 &1970141827 stripped
@@ -16441,8 +16440,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.2512, y: 38.542}
-  m_SizeDelta: {x: 274.0516, y: 211.17}
+  m_AnchoredPosition: {x: 2.5, y: 20}
+  m_SizeDelta: {x: 275, y: 210}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2017364450
 MonoBehaviour:
@@ -16568,7 +16567,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2025008640}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1107155719}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: ClickSkillButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2025008640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16817,7 +16828,7 @@ GameObject:
   m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2117680302
 Transform:
   m_ObjectHideFlags: 0
@@ -16845,7 +16856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd07a7578c17b954f86df3614eae5295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 5
   prefabsenemy: {fileID: 119928693809703916, guid: 399968dfaf178044090083cb234ed535,
     type: 3}
 --- !u!4 &2121596594 stripped

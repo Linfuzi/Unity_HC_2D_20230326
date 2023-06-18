@@ -9,7 +9,7 @@ public class ExpObject : MonoBehaviour
     [Header("吃掉物件的距離"), Range(0, 5)]
     public float eatDistance = 1f;
     [Header("經驗值"), Range(0, 5000)]
-    public float exp = 30;
+    public float exp = 10;
 
     private bool playerInArea;
     private Transform player;

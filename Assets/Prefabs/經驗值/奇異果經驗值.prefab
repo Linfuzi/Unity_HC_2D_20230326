@@ -139,4 +139,4 @@ MonoBehaviour:
   nameTarget: Player
   moveSpeed: 3.5
   eatDistance: 1
-  exp: 30
+  exp: 10

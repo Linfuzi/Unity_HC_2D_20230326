@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 [CreateAssetMenu(menuName = "Leo/Data Health Enemy")]
-public class DataHelthEnemy : DataHealth
+public class DataHealthEnemy : DataHealth
 {
 	[Header("掉落經驗值物件")]
 	public GameObject prefabExp;
