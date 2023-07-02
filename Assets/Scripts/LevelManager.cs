@@ -100,8 +100,8 @@ public class LevelManager : MonoBehaviour
 	public WeaponSystem weaponSystem;
 	[Header("血量系統:玩家血量")]
 	public DataHealth dataHealth;
-	[Header("經驗物件:香蕉經驗值")]
-	public CircleCollider2D expkiwi;
+	[Header("經驗物件:奇異果經驗值")]
+	public ExpObject expkiwi;
 	[Header("武器:蜜蜂")]
 	public Weapon weaponbee;
 
@@ -111,7 +111,7 @@ public class LevelManager : MonoBehaviour
 		weaponSystem.interval = dataSkills[1].skillValues[0];
 		dataHealth.hp = dataSkills[2].skillValues[0];
 		controlSystem.movespeed = (int)dataSkills[3].skillValues[0];
-		expkiwi.radius = dataSkills[4].skillValues[0];
+		expkiwi.exp = dataSkills[4].skillValues[0];
 	}
 
 	private void UpdateMoveSpeed(int number)
@@ -137,7 +137,7 @@ public class LevelManager : MonoBehaviour
 	private void UpdateExpRange(int number)
 	{
 		int lv = randomSkill[number].lv;
-		expkiwi.radius = randomSkill[number].skillValues[lv - 1];
+		expkiwi.exp = randomSkill[number].skillValues[lv - 1];
 	} 
 	#endregion
 }

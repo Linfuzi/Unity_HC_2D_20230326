@@ -8,8 +8,11 @@ public class EnemySystem : MonoBehaviour
 {
 	[Header("追蹤速度"), Range(0, 100)]
 	public float movespeed;
+	[Header("敵人資料")]
+	public DataHealthEnemy data;
 	private Transform player;
 	public Animator ani;
+
 	private void Awake()
 	{
 		player = GameObject.Find("Player").transform;

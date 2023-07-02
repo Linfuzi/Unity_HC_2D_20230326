@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2737326164630944485}
   - component: {fileID: 3867889960390001759}
   - component: {fileID: 7343909762449887695}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: "\u5403\u6211\u871C\u8702\u5C41\u80A1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,4 +139,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rig: {fileID: 2737326164630944485}
   power: {x: 100, y: 300}
-  attack: 6
+  attack: 50

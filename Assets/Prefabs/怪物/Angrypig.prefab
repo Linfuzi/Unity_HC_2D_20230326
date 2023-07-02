@@ -138,8 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f655adab9c97a64680b4c71bf74374a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 0.01
-  player: {fileID: 0}
+  movespeed: 1
+  data: {fileID: 11400000, guid: 44d84f28e2c47154593a7735b9b65946, type: 2}
   ani: {fileID: 8789680609155329757}
 --- !u!50 &5547640594281014180
 Rigidbody2D:
@@ -175,3 +175,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Data: {fileID: 11400000, guid: 44d84f28e2c47154593a7735b9b65946, type: 2}
+  DamageCanvas: {fileID: 8069652485952300132, guid: 6f97043ca1a333a4490cc2429d69122b,
+    type: 3}
