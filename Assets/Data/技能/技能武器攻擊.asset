@@ -21,4 +21,4 @@ MonoBehaviour:
   - 250
   iconSkill: {fileID: 21300000, guid: 2bdec237b92b8914580541920f6b6317, type: 3}
   description: "\u589E\u52A0\u6B66\u5668\u653B\u64CA"
-  lv: 1
+  lv: 2

@@ -17,17 +17,16 @@ public class DamageSystem : MonoBehaviour
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		//print(collision.gameObject);
 		if(collision.gameObject.name.Contains("屁股"))
 		{
-			//print("被屁股撞到");
-			GetDamage();
+			float attack =  collision.gameObject.GetComponent<Weapon>().attack;
+			GetDamage(attack);
 		}
 	}
-	private void GetDamage()
+	private void GetDamage(float damage)
 	{
-		hp -= 25;
-		//print("血量剩下" + hp);
+		print($"<color=#ff6699>受到的傷害{damage}</color>");
+		hp -= damage;
 
 		if(hp <= 0)
 		{
