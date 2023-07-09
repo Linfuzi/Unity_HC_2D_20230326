@@ -31,6 +31,8 @@ public class ExpObject : MonoBehaviour
             if(distance < eatDistance)//如果距離小於2就刪除
 			{
                 levelmanager.Getexp(exp);
+                AudioClip sound = SoundSystem.instance.GetExp;
+                SoundSystem.instance.PlaySound(sound, 1, 2);
                 Destroy(gameObject);
 			}
         }

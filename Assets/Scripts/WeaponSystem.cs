@@ -12,6 +12,8 @@ public class WeaponSystem : MonoBehaviour
 	private void SpawnWeapon()
 	{
 		Instantiate(prefabWeapon, pointWeapon.position, pointWeapon.rotation);
+		AudioClip sound = SoundSystem.instance.PlayerShoot;
+		SoundSystem.instance.PlaySound(sound, 1, 2);
 	}
 	private void Awake()
 	{

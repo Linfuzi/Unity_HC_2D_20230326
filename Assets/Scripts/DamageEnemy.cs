@@ -17,10 +17,18 @@ public class DamageEnemy : DamageSystem
 			GetDamage(attack);
 		}
 	}
+	public override void GetDamage(float damage)
+	{
+		base.GetDamage(damage);
+		AudioClip sound = SoundSystem.instance.EnemyHit;
+		SoundSystem.instance.PlaySound(sound, 1, 2);
+	}
 	protected override void Dead()
 	{
 		Destroy(gameObject);
 		DropExp();
+		AudioClip sound = SoundSystem.instance.EnemyDead;
+		SoundSystem.instance.PlaySound(sound, 1, 2);
 	}
 	private void DropExp()
 	{

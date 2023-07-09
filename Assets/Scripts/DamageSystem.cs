@@ -21,7 +21,7 @@ public class DamageSystem : MonoBehaviour
 		//print($"<color=#ff6699>受到的傷害{damage}</color>");
 		hp -= damage;
 
-		GameObject tempDamage = Instantiate(DamageCanvas, transform.position, transform.rotation);
+		GameObject tempDamage = Instantiate(DamageCanvas, transform.position, Quaternion.identity);
 		tempDamage.transform.Find("文字傷害值").GetComponent<TextMeshProUGUI>().text = damage.ToString();
 		Destroy(tempDamage, 1.5f);
 		if(hp <= 0)
