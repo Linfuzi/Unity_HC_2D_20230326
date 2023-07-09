@@ -8,27 +8,17 @@ public class DamageSystem : MonoBehaviour
 	[Header("DamageCanvas")]
 	public GameObject DamageCanvas;
 
-	private float hp;
-
-	private DataHealthEnemy dataEnemy;
+	protected float hp;
+	protected float hpmax;
 
 	private void Awake()
 	{
 		hp = Data.hp;
-		dataEnemy = (DataHealthEnemy)Data;
+		hpmax = hp;
 	}
-
-	private void OnCollisionEnter2D(Collision2D collision)
+	public virtual void GetDamage(float damage)
 	{
-		if(collision.gameObject.name.Contains("屁股"))
-		{
-			float attack =  collision.gameObject.GetComponent<Weapon>().attack;
-			GetDamage(attack);
-		}
-	}
-	private void GetDamage(float damage)
-	{
-		print($"<color=#ff6699>受到的傷害{damage}</color>");
+		//print($"<color=#ff6699>受到的傷害{damage}</color>");
 		hp -= damage;
 
 		GameObject tempDamage = Instantiate(DamageCanvas, transform.position, transform.rotation);
@@ -39,17 +29,9 @@ public class DamageSystem : MonoBehaviour
 			Dead();
 		}
 	}
-	private void Dead()
+	protected virtual void Dead()
 	{
-		Destroy(gameObject);
-		DropExp();
+		
 	}
-	private void DropExp()
-	{
-		//print("這隻怪物的掉落經驗值機率" + dataEnemy.dropProbability);
-		if(Random.value <= dataEnemy.dropProbability)
-		{
-			Instantiate(dataEnemy.prefabExp, transform.position, transform.rotation);
-		}
-	}
+	
 }
