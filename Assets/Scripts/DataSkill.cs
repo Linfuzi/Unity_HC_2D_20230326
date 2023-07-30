@@ -17,4 +17,8 @@ public class DataSkill : ScriptableObject
 	{
 		lv = 1;
 	}
+	private void OnEnable()
+	{
+		lv = 1;
+	}
 }

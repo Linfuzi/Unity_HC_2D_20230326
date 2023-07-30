@@ -19,10 +19,6 @@ public class ControlSystem : MonoBehaviour
 		//print("<color=red>LOL</color>");
 		Movemant();
 	}
-	private void Awake()
-	{
-
-	}
 	private void Movemant()
 	{
 		float x = Input.GetAxis("Horizontal");

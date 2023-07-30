@@ -12,9 +12,6 @@ public class DamagePlayer : DamageSystem
 	public override void GetDamage(float damage)
 	{
 		base.GetDamage(damage);
-		//	1.關閉控制系統
-		controlSystem.enabled = (false);
-		//	2.彈出結束畫面
 		imghp.fillAmount = hp / hpmax;
 		AudioClip sound = SoundSystem.instance.PlayerHit;
 		SoundSystem.instance.PlaySound(sound, 1, 2);
@@ -28,5 +25,12 @@ public class DamagePlayer : DamageSystem
 		goFinal.SetActive(true);
 		AudioClip sound = SoundSystem.instance.PlayerDead;
 		SoundSystem.instance.PlaySound(sound, 1, 2);
+	}
+	public void UpdateHealth(float updateHp)
+	{
+		Data.hp = updateHp;
+		hp = updateHp;
+		hpmax = updateHp;
+		imghp.fillAmount = 1; 
 	}
 }

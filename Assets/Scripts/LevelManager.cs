@@ -94,7 +94,7 @@ public class LevelManager : MonoBehaviour
 		goLevelUp.SetActive(false);
 		AudioClip sound = SoundSystem.instance.BtnUpdateSkill;
 		SoundSystem.instance.PlaySound(sound, 1, 2);
-	} 
+	}
 	#endregion
 
 	#region 升級系統
@@ -108,6 +108,8 @@ public class LevelManager : MonoBehaviour
 	public ExpObject expkiwi;
 	[Header("武器:蜜蜂")]
 	public Weapon weaponbee;
+	[Header("玩家血量系統:player")]
+	public DamagePlayer damagePlayer;
 
 	private void Awake()
 	{
@@ -132,11 +134,13 @@ public class LevelManager : MonoBehaviour
 	{
 		int lv = randomSkill[number].lv;
 		weaponSystem.interval = randomSkill[number].skillValues[lv - 1];
+		weaponSystem.ReSpawWeapon();
 	}
 	private void UpdatePlayerHealth(int number)
 	{
 		int lv = randomSkill[number].lv;
 		dataHealth.hp = randomSkill[number].skillValues[lv - 1];
+		damagePlayer.UpdateHealth(dataHealth.hp);
 	}
 	private void UpdateExpRange(int number)
 	{

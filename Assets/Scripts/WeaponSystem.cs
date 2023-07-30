@@ -19,4 +19,9 @@ public class WeaponSystem : MonoBehaviour
 	{
 		InvokeRepeating("SpawnWeapon", 0, interval);
 	}
+	public void ReSpawWeapon()
+	{
+		CancelInvoke("SpawWeapon");
+		InvokeRepeating("SpawnWeapon", 0, interval);
+	}
 }

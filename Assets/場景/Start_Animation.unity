@@ -11176,7 +11176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u5438\u8840\u9B3C\u5016\u5B58\u8005\u76DC\u7248"
+  m_text: "\u539F\u59CB\u4EBA\u751F\u5B582.0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 28c1bdd26030ce24990c8dc745f367f6, type: 2}
   m_sharedMaterial: {fileID: 3378906159935416594, guid: 28c1bdd26030ce24990c8dc745f367f6,
@@ -11952,7 +11952,7 @@ MonoBehaviour:
   luaBindingName: flowchart
 --- !u!114 &1285230621
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

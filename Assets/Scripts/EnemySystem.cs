@@ -25,7 +25,6 @@ public class EnemySystem : MonoBehaviour
 	{
 		transform.position = Vector3.MoveTowards(transform.position, player.position, movespeed*Time.deltaTime);
 		ani.SetBool("run", true);
-		Attack();
 		// 距離 = 三維向量 的 距離(此物件的座標,玩家的座標)
 		float distance = Vector3.Distance(transform.position, player.position);
 		// 如果 距離 小於 敵人資料裡面的攻擊範圍 才會 攻擊
@@ -34,12 +33,12 @@ public class EnemySystem : MonoBehaviour
 		if (transform.position.x > player.position.x) transform.eulerAngles = new Vector3(0, 0, 0);
 		// 如果此物件的X 小於 玩家的X 角度設定為 0,180,0
 		if (transform.position.x < player.position.x) transform.eulerAngles = new Vector3(0, 180, 0);
-		print($"<color=#ff6699>距離:{distance}</color>");
+		//print($"<color=#ff6699>距離:{distance}</color>");
 	}
 	private void Attack()
 	{
 		timer += Time.deltaTime;
-		print($"<color=#ff6699>計時器:{timer}</color>");
+		//print($"<color=#ff6699>計時器:{timer}</color>");
 		if (timer > data.attackInterval)
 		{
 			print("<color=#ff6699>攻擊玩家!</color>");
