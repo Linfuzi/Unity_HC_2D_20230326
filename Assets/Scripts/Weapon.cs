@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using Unity.Mathematics;
-using UnityEditor.Experimental.GraphView;
 
 public class Weapon : MonoBehaviour
 {
